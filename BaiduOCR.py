@@ -1,16 +1,16 @@
 # -*- coding: UTF-8 -*-
 from aip import AipOcr
 
-# 定义常量
+# 定义常量，放你自己创建得到的信息
 APP_ID = '21372704'
-API_KEY = 'YKpXQwN5zj79g99fZK8i4Kn1'
-SECRET_KEY = 'RTIAaFrvvgHbej7eALMKmjR0uF93rHCQ'
+API_KEY = 'YKpXQwN5zfZK8i4Kn1'
+SECRET_KEY = 'RTIAavvgHbej7eALMKmuF93rHCQ'
  
 # 初始化AipFace对象
 aipOcr = AipOcr(APP_ID, API_KEY, SECRET_KEY)
  
-# 读取图片
-filePath = "1.JPG"
+# 读取图片，放你自己的图片
+filePath = "exo.JPG"
  
 def get_file_content(filePath):
     with open(filePath, 'rb') as fp:
