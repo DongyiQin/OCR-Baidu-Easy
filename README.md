@@ -1,9 +1,7 @@
 # OCR-Text
 百度OCR调用，实现图片到文字的识别。
 首先在百度AI创建一个应用，创建后会获得如下信息：
-APP_ID = '******'
-API_KEY = '************'
-SECRET_KEY = '**************'
+APP_ID、API_KEY、SECRET_KEY 
 
 下面就是百度API包的安装，在终端cmd输入如下语句直接pip方式安装，注意是 baidu-api 哦！
 pip install baidu-aip
